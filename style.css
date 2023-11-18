@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke;
+}
+h3{
+    padding: 0;
+    margin: 0 auto;
+    color: #34073d;
+    width: 150px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #34073d;
+    text-shadow: 2px 2px 5px #ef745c;
+    text-align: center; 
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.container div {
+    background-color:#ef745c ;
+    padding: 50px;
+    border: 2px dashed #34073d;
+}
+
+.container div:first-child {
+    width: 150px;
+}
+
+.container div:nth-child(2) {
+    width: 150px;
+    margin-left: 250px;
+}
+
+.container div:nth-child(3) {
+    width: 200px;
+    margin-left: 500px;
+}
+
+.container div:last-child {
+    width: 200px;
+    margin-left: 800px;
+}
